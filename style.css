@@ -1,0 +1,107 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+
+    body
+    {
+        background-image: url('./images/bg-desktop.svg');
+        background-color: hsl(257, 40%, 49%);
+    }
+
+    header img
+    {
+        height: 100px;
+        width: 200px;
+    }
+
+    main
+    {
+        display: flex;  
+    }
+
+    #illustration-section img
+    {
+        /* height: 428.203px;
+        width: 590px; */
+        
+        flex-shrink: 2;
+        
+    }
+
+    #community-section
+    {
+        flex-shrink: 1;
+        height: 80vh;
+        padding: 1.5rem 5rem 1rem 1rem;
+        color: white;
+    }
+
+    #community-section h1
+    {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.45vw;
+    }
+
+    #community-section p
+    {
+        font-family: 'Open Sans', sans-serif;
+        opacity: 0.9;
+        font-size: 1vw;
+        letter-spacing: 1px;
+    }
+
+    #community-section button
+    {
+        padding: 1rem 4rem;
+        border-radius: 30px;
+        background-color: white;
+        border: none;
+        box-shadow: 5px;
+        margin-top: 1rem;
+    }
+
+    footer img
+    {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        left: 90vw;
+    }
+
+
+   
+
+
+
+    @media(max-width: 800px)
+    {
+        main
+        {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #illustration-section img
+        {
+            height: 200px;
+            width: 300px;
+            flex-grow: 1;
+        }
+
+        #community-section
+        {
+            flex-grow: 1;
+            padding: 2rem;
+        }
+
+        #community-section h1
+        {
+            font-size: 6vw;
+        }
+
+        #community-section p
+        {
+            font-size: 3vw;
+        }
+    }
